@@ -30,9 +30,10 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: black;
 }
+/*
 section{
   scroll-snap-align: start;
-}
+}*/
 
 @keyframes move-background {
   from {
@@ -162,8 +163,8 @@ p
 .dot {
   margin-left: 10px;
   margin-top: 11px;
-  height: 11px;
-  width: 11px;
+  height: 13px;
+  width: 13px;
   background-color: #3b3b3b;
   border-radius: 50%;
   display: inline-block;
@@ -171,8 +172,8 @@ p
 .greenDot {
   margin-left: 10px;
   margin-top: 11px;
-  height: 11px;
-  width: 11px;
+  height: 13px;
+  width: 13px;
   background-color: #29f5c5;
   border-radius: 50%;
   display: inline-block;
@@ -194,3 +195,12 @@ hr {
   margin-left: 0px;
   border-width: 0px;
 }
+h2
+{
+  color: white;
+}
+h5
+{
+  color: #607560;
+}
+
